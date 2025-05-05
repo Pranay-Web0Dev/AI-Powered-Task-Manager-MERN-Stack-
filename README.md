@@ -56,3 +56,30 @@ PORT=5000
 
 cd ..
 npm start
+
+
+Usage
+Once the app is running, you can:
+
+Add a task by entering text in the input field and clicking the "Add Task" button.
+
+Edit a task by clicking on the "Edit" button next to the task.
+
+Delete a task by clicking on the "Delete" button next to the task.
+
+Mark a task as done or undone by clicking on the "Done/Undone" button.
+
+Project Structure
+/task-manager-mern-stack
+├── /backend            # Backend server and API
+│   ├── /models         # MongoDB models
+│   ├── /routes         # Express routes for task management
+│   └── server.js       # Server setup
+│
+├── /client             # Frontend React app
+│   ├── /public         # Public assets (e.g., index.html)
+│   ├── /src            # React components and logic
+│   ├── App.js          # Main App component
+│   └── index.js        # Entry point for React app
+│
+└── .env                # MongoDB URI and port for backend
